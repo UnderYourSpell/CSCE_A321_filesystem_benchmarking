@@ -1,0 +1,27 @@
+btrfs archlinux test results
+
+test 1:
+closeOP              31261613ops   520421ops/s   0.0mb/s      0.0ms/op [0.00ms - 34.73ms]
+readOP               31261614ops   520421ops/s 508.2mb/s      0.0ms/op [0.00ms - 27.75ms]
+openOP               31261615ops   520421ops/s   0.0mb/s      0.0ms/op [0.00ms - 18446744073709.55ms]
+61.190: IO Summary: 93784842 ops 1561263.649 ops/s 520421/0 rd/wr 508.2mb/s   0.0ms/op
+
+test 2:
+closeOP              32725058ops   544735ops/s   0.0mb/s      0.0ms/op [0.00ms - 19.16ms]
+readOP               32725059ops   544735ops/s 532.0mb/s      0.0ms/op [0.00ms - 45.69ms]
+openOP               32725059ops   544735ops/s   0.0mb/s      0.0ms/op [0.00ms - 18446744073709.54ms]
+61.427: IO Summary: 98175176 ops 1634204.920 ops/s 544735/0 rd/wr 532.0mb/s   0.0ms/op
+
+test 3:
+closeOP              35808219ops   422039ops/s   0.0mb/s      0.0ms/op [0.00ms - 26.57ms]
+readOP               35808220ops   422039ops/s 412.1mb/s      0.0ms/op [0.00ms - 33.43ms]
+openOP               35808223ops   422039ops/s   0.0mb/s      0.0ms/op [0.00ms - 18446744073709.55ms]
+85.924: IO Summary: 107424662 ops 1266117.153 ops/s 422039/0 rd/wr 412.1mb/s   0.0ms/op
+
+test 4:
+closeOP              30563317ops   508245ops/s   0.0mb/s      0.0ms/op [0.00ms - 27.66ms]
+readOP               30563318ops   508245ops/s 496.3mb/s      0.0ms/op [0.00ms - 29.29ms]
+openOP               30563321ops   508245ops/s   0.0mb/s      0.0ms/op [0.00ms - 18446744073709.55ms]
+61.337: IO Summary: 91689956 ops 1524734.442 ops/s 508245/0 rd/wr 496.3mb/s   0.0ms/op
+
+
