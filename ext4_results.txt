@@ -1,30 +1,30 @@
 test 1:
-closeOP              36527189ops   608239ops/s   0.0mb/s      0.0ms/op [0.00ms - 11.13ms]
-readOP               36527189ops   608239ops/s 594.0mb/s      0.0ms/op [0.00ms - 13.12ms]
-openOP               36527191ops   608239ops/s   0.0mb/s      0.0ms/op [0.00ms - 19.25ms]
-61.140: IO Summary: 109581569 ops 1824717.602 ops/s 608239/0 rd/wr 594.0mb/s   0.0ms/op
+closeOP              35823414ops   596211ops/s   0.0mb/s      0.0ms/op [0.00ms - 13.28ms]
+readOP               35823415ops   596211ops/s 582.2mb/s      0.0ms/op [0.00ms - 18.71ms]
+openOP               35823415ops   596211ops/s   0.0mb/s      0.0ms/op [0.00ms - 20.11ms]
+61.204: IO Summary: 107470244 ops 1788634.122 ops/s 596211/0 rd/wr 582.2mb/s   0.0ms/op
 
 test 2:
-closeOP              33916608ops   564641ops/s   0.0mb/s      0.0ms/op [0.00ms - 10.43ms]
-readOP               33916608ops   564641ops/s 551.4mb/s      0.0ms/op [0.00ms - 21.11ms]
-openOP               33916612ops   564641ops/s   0.0mb/s      0.0ms/op [0.00ms - 18446744073709.54ms]
-61.144: IO Summary: 101749828 ops 1693922.489 ops/s 564641/0 rd/wr 551.4mb/s   0.0ms/op
+closeOP              36427266ops   606337ops/s   0.0mb/s      0.0ms/op [0.00ms - 10.03ms]
+readOP               36427267ops   606337ops/s 592.1mb/s      0.0ms/op [0.00ms - 18.88ms]
+openOP               36427267ops   606337ops/s   0.0mb/s      0.0ms/op [0.00ms - 18.98ms]
+61.201: IO Summary: 109281800 ops 1819011.654 ops/s 606337/0 rd/wr 592.1mb/s   0.0ms/op
 
 test 3:
-closeOP              32140608ops   534695ops/s   0.0mb/s      0.0ms/op [0.00ms - 25.28ms]
-readOP               32140611ops   534695ops/s 522.2mb/s      0.0ms/op [0.00ms - 31.10ms]
-openOP               32140612ops   534696ops/s   0.0mb/s      0.0ms/op [0.00ms - 18446744073709.55ms]
-61.188: IO Summary: 96421831 ops 1604086.457 ops/s 534695/0 rd/wr 522.2mb/s   0.0ms/op
+closeOP              33370106ops   555425ops/s   0.0mb/s      0.0ms/op [0.00ms - 12.82ms]
+readOP               33370107ops   555425ops/s 542.4mb/s      0.0ms/op [0.00ms - 20.90ms]
+openOP               33370108ops   555425ops/s   0.0mb/s      0.0ms/op [0.00ms - 21.24ms]
+61.190: IO Summary: 100110321 ops 1666275.928 ops/s 555425/0 rd/wr 542.4mb/s   0.0ms/op
 
 test 4:
-closeOP              29357944ops   488377ops/s   0.0mb/s      0.0ms/op [0.00ms - 38.35ms]
-readOP               29357944ops   488377ops/s 476.9mb/s      0.0ms/op [0.00ms - 41.18ms]
-openOP               29357947ops   488377ops/s   0.0mb/s      0.0ms/op [0.00ms - 18446744073709.55ms]
-61.183: IO Summary: 88073835 ops 1465130.424 ops/s 488377/0 rd/wr 476.9mb/s   0.0ms/op
+closeOP              35681233ops   593831ops/s   0.0mb/s      0.0ms/op [0.00ms -  6.91ms]
+readOP               35681234ops   593831ops/s 579.9mb/s      0.0ms/op [0.00ms - 19.29ms]
+openOP               35681236ops   593831ops/s   0.0mb/s      0.0ms/op [0.00ms - 17.08ms]
+61.437: IO Summary: 107043703 ops 1781491.737 ops/s 593831/0 rd/wr 579.9mb/s   0.0ms/op
 
 test 5:
-closeOP              35239201ops   586695ops/s   0.0mb/s      0.0ms/op [0.00ms - 13.28ms]
-readOP               35239204ops   586695ops/s 572.9mb/s      0.0ms/op [0.00ms - 12.42ms]
-openOP               35239204ops   586695ops/s   0.0mb/s      0.0ms/op [0.00ms - 17.54ms]
-61.175: IO Summary: 105717609 ops 1760085.629 ops/s 586695/0 rd/wr 572.9mb/s   0.0ms/op
+closeOP              34292779ops   570994ops/s   0.0mb/s      0.0ms/op [0.00ms - 20.59ms]
+readOP               34292781ops   570994ops/s 557.6mb/s      0.0ms/op [0.00ms - 22.05ms]
+openOP               34292781ops   570994ops/s   0.0mb/s      0.0ms/op [0.00ms - 18446744073709.55ms]
+61.223: IO Summary: 102878341 ops 1712982.905 ops/s 570994/0 rd/wr 557.6mb/s   0.0ms/op
 
